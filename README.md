@@ -11,7 +11,7 @@ The key differences between X-SAMPA and this keyboard's input conventions are th
 
 - X-SAMPA's postposed modifier symbols (e.g. the <\\> in <p\\>; X-SAMPA's representation of IPA <ɸ>) are converted into *pre*posed dead keys (so <ɸ> is typed as <\\> + <\p> in that order)
 - X-SAMPA's underscore for diacritics (e.g. <u_0> for IPA <u̥>) is converted into a dash, to save on input keystrokes (so <u̥> is input as <\u> + <-> + <0>)
-- Cases where X-SAMPA uses two modifier symbols (e.g. <r\\\`> for <ɻ>) use <|> (the pipe) as their dead key (so <ɻ> is typed as <|> + <\r>).
+- Cases where X-SAMPA uses two modifier symbols (e.g. <r\\\`> for <ɻ>) use <|> (the pipe) as their dead key (so <ɻ> is typed as <|> + \<r>).
 
 There are a few cases where this keyboard and X-SAMPA differ; full documentation can be found in the spreadsheet included in the top-level directory. Most of these are cases where either X-SAMPA has no code at all for an IPA symbol (e.g. this keyboard has <-> + <\g> for <ʱ>), or X-SAMPA uses two modifier symbols when one is unambiguous (e.g. <J\\<> for <ʄ>, where this keyboard just uses <<> + <\J>). If a key combination doesn't do what you expect, poking around and trying similar options may be faster than actually looking in the documentation.
 
